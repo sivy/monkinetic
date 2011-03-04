@@ -1,0 +1,32 @@
+---
+title: "Statsd and Python"
+layout: post
+tp_urlid: "6a010534988cd3970b014e5f41b1b4970c"
+tp_favoritecount: 0
+tp_commentcount: 0
+tp_permalink: "http://www.monkinetic.com/2011/02/statsd.html"
+---
+Short version: pystatsd is fire-and-forget site metrics from python, using Etsy's StatsD and Graphite.
+
+The brilliant devops folks at [Etsy](http://etsy.com) released (and [posted about](http://codeascraft.etsy.com/2011/02/15/measure-anything-measure-everything/)) an awesome little node.js-based stats server called [statsd](https://github.com/etsy/statsd/).
+
+Statsd sits in front of the [Graphite metrics server](http://graphite.wikidot.com/), providing a simple API for applications to send stats *over UDP*. UDP is "old tech" but is fire-and-forget -- clients don't have to wait for a response to keep processing.
+
+I took a few hours last night (after reviewing my python socket programming) and ported Etsy's [PHP example](https://github.com/etsy/statsd/blob/master/php-example.php) to Python. Until (and if) it gets pulled into the main repo, yo can find the python sample client in [my Github fork of statsd](https://github.com/sivy/statsd/blob/master/python_example.py).
+
+    >>> from python_example import Statsd
+    >>> Statsd.timing('some.time','500|ms')
+    >>> Statsd.increment('some.int')
+    >>> Statsd.decrement('some.int')
+
+## Stand-alone Client
+
+I reworked this code into a standalone client you can now find [on Github](https://github.com/sivy/py-statsd):
+
+    >>> from pystatsd import Statsd
+    >>> statsd_client = Statsd(host, port)
+    >>> statsd_client.timing('some.time','500|ms')
+    >>> statsd_client.increment('some.int')
+    >>> statsd_client.decrement('some.int')
+
+Enjoy!
