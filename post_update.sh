@@ -3,7 +3,7 @@
 # generate the site
 echo "building site..."
 export PATH="$PATH:/var/lib/gems/1.8/bin/"
-rvm use 1.9.2
+~/.rvm/scripts/rvm use 1.9.2
 rake generate
 
 echo "copying public/* to /var/www/stage-monkinetic-com/"
