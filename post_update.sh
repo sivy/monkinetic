@@ -5,5 +5,5 @@ echo "building site..."
 export PATH="$PATH:/var/lib/gems/1.8/bin/"
 rake generate
 
-echo "copying $BUILD_DIR/* to $DEST_DIR/"
-cp -R $BUILD_DIR/* $DEST_DIR/
+echo "copying _site/* to /var/www/stage-monkinetic-com/"
+cp -R public/* /var/www/stage-monkinetic-com/
