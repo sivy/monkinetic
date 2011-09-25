@@ -4,7 +4,7 @@
 echo "building site..."
 export PATH="$PATH:/var/lib/gems/1.8/bin/"
 ~/.rvm/scripts/rvm use 1.9.2
-rake generate
+/home/deploy/.rvm/gems/ruby-1.9.2-p290/bin/rake generate
 
 echo "copying public/* to /var/www/stage-monkinetic-com/"
 cp -R public/* /var/www/stage-monkinetic-com/
