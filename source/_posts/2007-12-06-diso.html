@@ -1,0 +1,41 @@
+---
+title: "DiSo"
+layout: post
+tp_urlid: "6a010534988cd3970b0120a55cea7b970b"
+tp_favoritecount: 0
+tp_commentcount: 2
+tp_permalink: "http://www.monkinetic.com/2007/12/diso.html"
+---
+>A nerd needs a project because a nerd builds stuff. All the time. Those lulls in the conversation over dinner? Thats the nerd working on his project in his head.
+
+>-- Rands in Repose, [The Nerd Handbook](http://www.randsinrepose.com/archives/2007/11/11/the_nerd_handbook.html)
+
+##Microformats, OpenID, Portable Social Networks
+
+So, for the last month or so, these things have been my Project. Actually, I haven't spent as much time on them as I'd like, since I'm a Dad (geek dad FTW) and an employee first, but I *am* a nerd and these have been my Project. The evidence:
+
+* [If You Love Your Users, Set Them Free -- Portable Social Networks](http://redmonk.net/archives/2007/11/07/if-you-love-your-users-set-them-free-portable-social-networks/)
+* [Making a list: Whitelisting with OpenId and XFN](http://redmonk.net/archives/2007/11/25/making-a-list-whitelisting-with-openid-and-xfn/)
+* [Blogrolls, XFN, and OpenID URIs](http://redmonk.net/archives/2007/11/26/blogrolls-xfn-and-openid-uris/)
+* [More XFN+OpenID](http://redmonk.net/archives/2007/11/29/more-xfnopenid/)
+* [XFN Blogroll](http://redmonk.net/more_monkinetic/xfn-blogroll)
+
+You can see that it's been occupying the back (and front!) of my mind for some time now. My unfortunate sounding board for a lot of this has been the unflappable [Chris Messina](http://factoryjoe.com/blog), who himself is an enthusiastic evangelist for microformats and has put up with a lot of questions, as well as putting up with me nearly hijacking and adopting his [plugin project](http://factorycity.net/projects/wp-microformatted-blogroll/).
+
+I've rewritten large chunks of the XFN blogroll plugin, with Chris' help and encouragement, and added substantial functionality (mostly in enabling the plugin to find users who have registered via openid and modify the blogroll links based on that information). Now, we've decided to move this project and several others we have in mind to their own project on Google Code.
+
+##DiSo: Distributed Social Networking apps
+
+[DiSo](http://diso.googlecode.com/) (dee  zoh) is a new umbrella project for various open source social networking components that we're working on. In the beginning, we're largely targetting [Wordpress](http://wordpress.org), building on the work [Will Norris](http://willnorris.com)' has done with his excellent [WP-OpenID plugin](http://willnorris.com/projects/wpopenid).
+
+From the [project description page for DiSo](http://code.google.com/p/diso/):
+
+>This model can be described as having three sides... Information, Identity, and Interaction.
+
+The first plugin is the [Microformatted Blogroll](http://diso.googlecode.com/svn/trunk/wp-xfn/) (wp-xfn), which is about ready for a 0.5 release, and has been getting a workout [on my blogroll](http://redmonk.net/more_monkinetic/xfn-blogroll/) for a while now.
+
+I've also started preliminary work on an [OpenID server](http://diso.googlecode.com/svn/trunk/wp-openid-server/) (wp-openid-server) that will authenticate against the Wordpress user database. The server will, hopefully, be a port/wrap of [phpMyID](http://siege.org/projects/phpMyID/), a very easy to use single-file server writtten by [CJ Niemera](http://siege.org/).
+
+## What's Next
+
+For me, continuing to develop wp-xfn, and start designing wp-openid-server. For you? Try reading and and see if there's something you'd like to work on. [Download the source](http://diso.googlecode.com/svn/trunk/) an browse around. Then [contact me](http://redmonk.net/about-this-site) or [Chris](http://factoryjoe.com/blog/contact/) and let's talk!
