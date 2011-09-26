@@ -15,3 +15,29 @@
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
+
+$header-bg: #fff;
+$header-bg-full: #fff url(/images/monkinetic_header_bkgd_left.png) top left no-repeat;
+$header-bg-full2: url(/images/monkinetic_header_bkgd_right.png) bottom right no-repeat;
+
+@media only screen and (min-width: 550px) {
+    body {
+      margin: 0 20px;
+    }
+    hgroup {
+        margin: 0;
+        padding: 5px 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 0 50px;
+    }
+    
+    hgroup {
+        margin: 0;
+        padding: 10px 20px;
+    }
+}
+

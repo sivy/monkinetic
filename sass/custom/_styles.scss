@@ -1,2 +1,105 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+$header-bg: #fff url(/images/monkinetic_header_bkgd_left.png) top left no-repeat;
+$header-bg2: url(/images/monkinetic_header_bkgd_right.png) bottom right no-repeat;
+
+// $subtitle-color: lighten($header-bg, 58);
+//$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
+//$sidebar-bg: desaturate(#eceff5, 8);
+//$sidebar-link-color: saturate(#526f9a, 10);
+//$sidebar-link-color-hover: darken(#7ab662, 9);
+
+/* Navigation */
+$nav-bg: #fff !default;
+$nav-color: darken($nav-bg, 38) !default;
+$nav-color-hover: darken($nav-color, 25) !default;
+$nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
+$nav-border: none !default;
+$nav-border-top: none !default;
+$nav-border-bottom: #ccc !default;
+$nav-border-left: none !default;
+$nav-border-right: none !default;
+
+html {
+  background: $page-bg;
+}
+.heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.serif { font-family: Georgia, Times, "Times New Roman", serif; }
+.mono { font-family: $mono; }
+
+html, body {
+    background-color: #fff;
+}
+
+body {
+    margin: 0 50px;
+}
+
+body > div,
+body > div > div {
+    background: none;
+    background-color: #fff;
+}
+
+body > header  {
+    height: 96px;
+    background: $header-bg-full;
+    padding: 0;
+    margin-top: 20px;
+    border-top: 1px solid #666;
+    border-bottom: 3px double #666;
+    text-align:center;
+}
+
+body > header > hgroup {
+    height: 76px;
+    background: $header-bg-full2;
+    
+}
+
+body > header h1 a {
+    background-image: url("/images/monkinetic_header_trans.png");
+    background-position: 0 0;
+    background-color: #00ADEF;
+    background-repeat: no-repeat;
+    width: 273px;
+    height: 45px;
+    font-family: Arial,Helvetica,Sans-Serif;
+    font-size: 0;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+body > header h1 a span {
+    display: none;
+}
+
+body > header h2 { 
+    color: #898989;
+    font-family: normal Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    height: 16px !important;
+    line-height: 10px;
+    font-weight: normal;
+}
+
+body > nav {
+    background-image: none;
+}
+
+body #content > article, 
+body #content > div > article, 
+body #content > div > section, 
+body nav.pagination {
+    padding-left: 0;
+    padding-right: 0;    
+}
