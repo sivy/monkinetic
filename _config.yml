@@ -76,6 +76,7 @@ twitter_tweet_button: true
 # Google Plus
 google_plus_one: true
 google_plus_one_size: small
+google_plus_one_size: small
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
@@ -92,7 +93,7 @@ delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: monkinetic
-disqus_show_comment_count: false
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
