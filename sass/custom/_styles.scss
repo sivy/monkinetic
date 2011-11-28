@@ -53,6 +53,7 @@ $nav-border-right: none !default;
 
 html {
   background: $page-bg;
+  font-size: 66.67%
 }
 .heading {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -63,10 +64,13 @@ html {
 
 html, body {
     background-color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 body {
-    margin: 0 50px;
+    margin: 0 50px;    
+    font-size: 1.3em;
 }
 
 body > div,
@@ -79,8 +83,8 @@ body > header  {
     height: 96px;
     background: $header-bg-full;
     padding: 0;
-    margin-top: 20px;
-    border-top: 1px solid #666;
+    margin-top: 0;
+    border-top: 0 solid #ccc;
     border-bottom: 3px double #666;
     text-align:center;
 }
@@ -126,6 +130,84 @@ body > nav {
     background-image: none;
 }
 
+body > nav li + li,
+body > nav li + li a {
+    border-left: none;
+    padding-left: 0;
+}
+
+body > nav form .search {
+    width: 93%;
+    font-size: .95em;
+    line-height: 1.2em;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding: 1px 1px 1px 3px;
+}
+
+nav[role=navigation]
+{
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    padding: 0;
+    height: 27px;
+}
+nav[role=navigation] ul 
+{
+    margin: 0;
+    padding: 0;
+}
+nav[role=navigation] li
+{
+    float: left;
+    text-align: left;
+    list-style-type: none;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+}
+nav[role=navigation] li a
+{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+}
+
+nav[role=navigation] li a:hover {
+    border-bottom: 2px solid #000;
+}
+
+a[rel=subscribe-rss]{ 
+    mask-image: none;
+    font-weight: 500;
+}
+
+.maskImage a[rel="subscribe-rss"], 
+.maskImage a[rel="subscribe-rss"]::after {
+    -moz-mask-image: none;
+    -webkit-mask-image: none;
+    -khtml-mask-image: none;
+    width: inherit;
+    height: inherit;
+}
+.maskImage a[rel="subscribe-rss"] {
+    position: relative;
+    top: inherit;
+    text-indent: 0;
+    background-color: transparent;
+    border: inherit;
+    padding: inherit;
+    border-image: initial;
+}
+
 body #content > article, 
 body #content > div > article, 
 body #content > div > section, 
@@ -134,10 +216,46 @@ body nav.pagination {
     padding-right: 0;    
 }
 
+#content .blog-index article {
+    margin-right: 10px;
+}
+
 article header h1 {
     font-size: 1.8em
 }
 
 article ul {
     margin-left: 20px;
+}
+
+article ul li {
+    margin-bottom: 5px;
+}
+
+aside.sidebar {
+    font-size: 1.2em;
+}
+
+article header h1 a:hover {
+    text-decoration: none;
+}
+
+#content .blog-index article h1 {
+    font-weight: 500;
+}
+
+#content .blog-index article h1 a:hover {
+    color: #0cc2f1;
+}
+
+a {
+    color: #999;
+}
+
+a:visited {
+    color: #666;
+}
+
+a:hover {
+    color: #0cc2f1;
 }
