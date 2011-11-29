@@ -1,0 +1,2 @@
+RewriteEngine on
+RewriteRule ^/archives(.*)$ /blog/archives$1
