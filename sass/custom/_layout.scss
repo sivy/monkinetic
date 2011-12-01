@@ -20,6 +20,12 @@ $header-bg: #fff;
 $header-bg-full: #fff url(/images/monkinetic_header_bkgd_left.png) top left no-repeat;
 $header-bg-full2: url(/images/monkinetic_header_bkgd_right.png) bottom right no-repeat;
 
+// layout stuff for small screens like iphone
+@media only screen and (min-width: 350px) {
+    body {
+    }
+}
+
 @media only screen and (min-width: 550px) {
     body {
       margin: 0 20px;
