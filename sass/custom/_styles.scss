@@ -21,6 +21,36 @@ $nav-border-bottom: #ccc !default;
 $nav-border-left: none !default;
 $nav-border-right: none !default;
 
+// overrides for super small screens that support media-queries
+// Like the iPhone
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+  body > header  {
+      height: 85px !important;
+      background: white !important;
+      background-image: none !important;
+      border-top: 0 !important;
+      margin-top: 10px !important;
+  }
+
+  body > header > hgroup {
+      background: white;
+      background-image: none !important;
+      // font-size: 80% !important;
+  }
+
+  body > header > h1 > a {
+  }
+
+  #content .blog-index article {
+      padding-top: 0 !important;
+      font-size: 90% !important;
+  }
+
+  #content {
+      border-right: 0 !important;
+  }
+}
+
 html {
   background: $page-bg;
 }
