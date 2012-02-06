@@ -28,7 +28,11 @@ $header-bg-full2: url(/images/monkinetic_header_bkgd_right.png) bottom right no-
 
 @media only screen and (min-width: 550px) {
     body {
-      margin: 0 20px;
+        margin: 0 20px;
+    }
+
+    body > header > hgroup {
+        background: none;
     }
     hgroup {
         margin: 0;
@@ -38,7 +42,11 @@ $header-bg-full2: url(/images/monkinetic_header_bkgd_right.png) bottom right no-
 
 @media only screen and (min-width: 768px) {
     body {
-        margin: 0 50px;
+        margin: 0 100px;
+    }
+
+    body > header > hgroup {
+        background: none;
     }
     
     hgroup {

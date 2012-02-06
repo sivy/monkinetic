@@ -10,13 +10,13 @@ footer: true
 
 <a style="float: left; margin: 0 10px 10px 0" href="http://steveivy.typepad.com/.a/6a010534988cd3970b015435a85a5b970c-pi"><img class="asset  asset-image at-xid-6a010534988cd3970b015435a85a5b970c" alt="Steve_hello" title="Steve_hello" src="http://steveivy.typepad.com/.a/6a010534988cd3970b015435a85a5b970c-120wi" style="margin: 0 5px 0 0;" /></a> 
 
-    <p>My name is <a class="url fn n uid" rel="me" href="http://redmonk.net/about-this-site"><span class="given-name">Steve</span> <span class="family-name">Ivy</span></a>, though you may see me around as <code class="nickname">sivy</code>, <code class="nickname">monkinetic</code>, or even occasionally <code class="nickname">wallrazer</code>. I write at <a href="http://www.monkinetic.com" rel="me" class="url">monkinetic.com</a>.</p>
+    <p>My name is <a class="url fn n uid" rel="me" href="/about-this-site.html"><span class="given-name">Steve</span> <span class="family-name">Ivy</span></a>, though you may see me around as <code class="nickname">sivy</code>, <code class="nickname">monkinetic</code>, or even occasionally <code class="nickname">wallrazer</code>. I write at <a href="http://www.monkinetic.com" rel="me" class="url">monkinetic.com</a>.</p>
 
-    <p>I work for myself, and you can find me at <a href="http://wallrazer.com" class="org">Wallrazer</a>. This is my personal site.</p>
+    <p>I work for myself, and you can find me at <a href="http://wallrazer.com" class="org">Wallrazer</a>. This is my personal site, which over the 14 years it's been running, has run on UserLand's News Suite, <a href="http://conversant.macrobyte.net/about.html">Conversant</a>, <a href="http://wordpress.org">Wordpress</a>, <a href="http://typepad.com">TypePad</a>, and (this version) <a href="http://octopress.org">Octopress</a>.</p>
 
     <p>In my spare time I'm your basic nerd. You can follow me on <a class="url" href="http://twitter.com/steveivy">Twitter</a> if you like. I also co-founded the <a href="http://diso-project.org" class="org">DiSo Project</a> with <a rel="friend colleague" href="http://factoryjoe.com/blog">Chris Messina</a>, and spent many night hours hacking <a href="http://microformats.org">microformats</a>, <a href="http://openid.net">OpenID</a>, and <a href="http://xmpp.org">XMPP</a> into Wordpress, as well as running the <a href="http://diso-project.org">DiSo website</a>, <a href="http://diso-project.org/wiki/">wiki</a>, and <a href="http://diso.googlecode.com">Google Code site</a>.</p>
 
-  <p>These days I lurk on the <a href="http://groups.google.com/group/federated-social-web">Federated Social Web</a> list and the <a href="irc://irc.freenode.com/ostatus">#ostatus IRC channel</a> a lot, as they've sort of taken on the mantle that DiSo represented.</p>
+  <p>These days I lurk on the <a href="http://groups.google.com/group/federated-social-web">Federated Social Web</a> list and the <a href="irc://irc.freenode.com/ostatus">#ostatus IRC channel</a>, as they've sort of taken on the mantle that DiSo represented.</p>
 
     <p>I also build a <a href="http://www.flickr.com/photos/redmonk/sets/72157623196675702/">LOT of SciFi-themed LEGO</a>.</p>
 
@@ -42,7 +42,6 @@ Discovering HyperCard in a closet during a desktop publishing course changed my 
 * The Joy and Trials of Adoption
 * Facebook Ambivalence
 * Monty Python and the Holy Grail
-
 
 ([Download my contact information](http://feeds.technorati.com/contacts/http://www.monkinetic.com/about-this-site.html))
 

@@ -2,6 +2,7 @@
 // Add styles here to make changes without digging in too much
 
 $header-bg: #fff url(/images/monkinetic_header_bkgd_left.png) top left no-repeat;
+$footer-bg: #fff url(/images/monkinetic_header_bkgd_left.png) -10px 0 no-repeat;
 $header-bg2: url(/images/monkinetic_header_bkgd_right.png) bottom right no-repeat;
 
 // $subtitle-color: lighten($header-bg, 58);
@@ -51,21 +52,27 @@ $nav-border-right: none !default;
   }
 }
 
-html {
-  background: $page-bg;
-  font-size: 66.67%
-}
-.heading {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+$link-hover: #0CC2F1;
+$header-color: #0CC2F1;
+
 .sans { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .serif { font-family: Georgia, Times, "Times New Roman", serif; }
 .mono { font-family: $mono; }
 
+html {
+  background: $page-bg;
+  font-size: 66.67%;
+  @extend .sans;
+}
+
+.heading {
+  @extend .sans;
+}
+
 html, body {
     background-color: #fff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
+    @extend .sans;
 }
 
 body {
@@ -83,16 +90,15 @@ body > header  {
     height: 96px;
     background: $header-bg-full;
     padding: 0;
-    margin-top: 0;
-    border-top: 0 solid #ccc;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
     border-bottom: 3px double #666;
-    text-align:center;
+    text-align: center;
 }
 
 body > header > hgroup {
     height: 76px;
     background: $header-bg-full2;
-    
 }
 
 body > header h1 a {
@@ -118,7 +124,7 @@ body > header h1 a span {
 
 body > header h2 { 
     color: #898989;
-    font-family: normal Helvetica,Arial,sans-serif;
+    @extend .sans;
     font-size: 14px;
     margin-top: 5px;
     height: 16px !important;
@@ -167,7 +173,6 @@ nav[role=navigation] li
     text-align: left;
     list-style-type: none;
     font-size: 14px;
-    font-family: "Helvetica Neue", Helvetica, Arial, Sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     margin: 0;
@@ -245,7 +250,11 @@ article header h1 a:hover {
 }
 
 #content .blog-index article h1 a:hover {
-    color: #0cc2f1;
+    color: $link-hover;
+}
+
+article .entry-content {
+    padding-right: 10px;
 }
 
 a {
@@ -258,4 +267,65 @@ a:visited {
 
 a:hover {
     color: #0cc2f1;
+}
+
+aside.sidebar section h1 {
+    @extend .sans;
+    color: $header-color;
+    border-bottom: 5px solid #BEC9CC;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    margin-top: 8pt;
+    margin-bottom: 0.8em;
+    padding-top: 0.4em;
+    padding-bottom: 0.2em;
+}
+
+aside.sidebar img.logo-item {
+    box-shadow: none;
+    border: none;
+    background-color: #666;
+}
+
+#content .blog-index a[rel="full-article"] , #content .blog-index, #content article {
+    @extend .sans;
+}
+
+body > footer {
+   border: none;
+   height: 96px;
+   background: $footer-bg;
+   background-position: 0 -10px;
+   padding: 0;
+   margin-top: 0;
+   border-bottom: 0 solid #ccc;
+   border-top: 3px double #666;
+   text-align:center;
+   text-shadow: none;
+}
+
+blockquote {
+    font-size: 1em;
+}
+
+#post-about-me {
+    @extend .sans;
+    border: 1px solid #999;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #dff;
+    color: #666;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin-right: 10px;
+}
+
+#post-about-me img {
+    border-radius: 0;
+    box-shadow: none;
+    border: 1px solid #999;
+    margin-right: 5px;
 }

@@ -4,13 +4,13 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "user@domain.com"
+ssh_user       = "deploy@hammer.wallrazer.com"
 ssh_port       = "22"
-document_root  = "~/website.com/"
+document_root  = "/var/www/monkinetic.com/"
 deploy_default = "rsync"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+# deploy_branch  = "gh-pages"
 
 ## -- Misc Configs -- ##
 
@@ -108,6 +108,7 @@ task :new_post, :title do |t, args|
     post.puts "categories: "
     post.puts "---"
   end
+  `bbedit #{filename}`
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
