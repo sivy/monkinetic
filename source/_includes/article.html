@@ -1,9 +1,9 @@
 {% unless page.no_header %}
   <header>
     {% if index %}
-      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title | titlecase }}</a></h1>
+      <h1 class="p-name entry-title"><a href="{{ root_url }}{{ post.url }}">{{ post.title | titlecase }}</a></h1>
     {% else %}
-      <h1 class="entry-title">{{ page.title | titlecase }}</h1>
+      <h1 class="p-name entry-title">{{ page.title | titlecase }}</h1>
     {% endif %}
     {% unless page.meta == false %}
       <p class="meta">
@@ -16,7 +16,7 @@
   </header>
 {% endunless %}
 {% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
+  <div class="e-entry-content entry-content">{{ content | excerpt }}</div>
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   {% if excerpted == 'true' %}
     <footer>
