@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pushcode-thoughts"
+title: "Pushcode Thoughts"
 date: 2012-07-13 23:14
 comments: true
 categories:
