@@ -1,9 +1,0 @@
----
-title: "She did it"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a55cdbba970b"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2002/05/she-did-it.html"
----
-Heh. <a href="http://www.megnut.com/archive.asp?which=2002_05_01_archive.inc#20020528">Megnut says goodbye</a> to Windows and ASP, and &quot;<a href="http://www.amazon.com/exec/obidos/ASIN/B000068IE6/megnutcom">Hellooooooooooo, Aqua!</a>&quot;. <i>Muahahahaha...</i>

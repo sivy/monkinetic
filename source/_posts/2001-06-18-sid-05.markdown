@@ -1,9 +1,0 @@
----
-title: "Sid 0.5"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a5b3585a970c"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2001/06/sid-05.html"
----
-Sid 0.5 has been released for download <a href="http://media.redmonk.net/software/SidDist.dmg.gz">here</a>. Coolest new feature: Labels. Sid can download and save a list of your conversation&#39;s labels, allowing you to set the label for a message in Sid, rather than having to edit it again in the browser to set the label.

@@ -1,9 +1,0 @@
----
-title: "iBlog"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a5b35eb7970c"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2002/11/iblog.html"
----
-If you use <a href="http://www.mac.com/">.Mac</a>, and want to start a weblog, <a href="http://www.lifli.com/index.htm">Lifli Software</a> has a solution: <a href="http://www.lifli.com/Products/iBlog/main.htm">iBlog</a>! After iPhoto came out, I had this same basic idea: an i-themed weblog application. Glad to see someone built it!

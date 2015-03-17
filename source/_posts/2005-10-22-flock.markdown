@@ -1,9 +1,0 @@
----
-title: "Flock"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a5b3688c970c"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2005/10/flock.html"
----
-Trying out a new browser: <cite cite="http://www.flock.com/fiveways/togetstarted/13.php"><a href="http://www.flock.com/fiveways/togetstarted/13.php">Flock</a></cite><p>It has some interesting features: built in blog editor, <a href="http://del.icio.us/">del.icio.us</a> integration, <a href="http://flickr.com">flickr</a> integration.<br /></p><p style="font-size:10px;text-align:right;">Technorati Tags: <a href="http://technorati.com/tag/browsers" rel="tag">browsers</a>, <a href="http://technorati.com/tag/del.icio.us" rel="tag">del.icio.us</a>, <a href="http://technorati.com/tag/flickr" rel="tag">flickr</a>, <a href="http://technorati.com/tag/tagging" rel="tag">tagging</a></p>

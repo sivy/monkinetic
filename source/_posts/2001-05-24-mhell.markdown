@@ -1,9 +1,0 @@
----
-title: "M$Hell"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a5b35806970c"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2001/05/mhell.html"
----
-We&#39;re working on a demo for a new project, and learning VB/COM/ASP and the IIS architecture all on the way. Oh boy!!

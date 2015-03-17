@@ -1,9 +1,0 @@
----
-title: "Focused"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a5b367ed970c"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2007/05/focused.html"
----
-[OmniFocus](http://www.omnigroup.com/applications/omnifocus/) is looking... just plain amazing. I cannot wait to try this out. It looks like it&#39;s going to have the polish [Omni](http://omnigroup.com) is known for, and a ton of small touches that add up to a great experience.

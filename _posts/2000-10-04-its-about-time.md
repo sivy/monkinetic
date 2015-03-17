@@ -1,0 +1,6 @@
+Slug: its-about-time
+Date: 2000-10-04
+Title: It's about time...
+layout: post
+
+MSNBC is carrying a WSJ <a href="http://www.msnbc.com/news/471592.asp?0nm=-22B&amp;cp1=1">article</a> about the controversy over business-process patents. I don&#39;t know what the solution is to this, but it&#39;s good to see the issue coming up in the courts and legislative systems. Now, if they can only keep from breaking the system even more...

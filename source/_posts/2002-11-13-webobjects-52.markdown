@@ -1,9 +1,0 @@
----
-title: "WebObjects 5.2"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a55cdf4d970b"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2002/11/webobjects-52.html"
----
-Apple has released <a href="http://maccentral.macworld.com/news/0211/12.webobjects.php">WebObjects 5.2</a>, with built-in support for web services and a number of other improvements.

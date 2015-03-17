@@ -1,9 +1,0 @@
----
-title: "Snow Days"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a55ce001970b"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2002/12/snow-days.html"
----
-<a href="http://scriptingnews.userland.com/backissues/2002/12/25#When:7:39:21PM">Dave is wondering at the snow in NYC</a>. Here in Phoenix it was 60&degree;. :-) No snow here.

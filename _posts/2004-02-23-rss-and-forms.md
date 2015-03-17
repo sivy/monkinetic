@@ -1,0 +1,14 @@
+Slug: rss-and-forms
+Date: 2004-02-23
+Title: RSS and Forms
+layout: post
+
+I had an idea tonight, inspired by a post on <a href="http://www.bbum.net">Bill Bumgarner</a>&#39;s site. Actually, it was in reading Bill&#39;s RSS feed in <a href="http://www.inessential.com/netnewswire">NetNewsWire</a>.
+
+<a href="http://www.pycs.net/bbum/2004/2/22/#200402222">In this post</a>, Bill has a form that searches a drink database. The form renders in NetNewsWire (of course) and can be submitted and used.
+
+So... it occured to me that an RSS feed could be used as a source for a company&#39;s internal forms. Any new form could be added to the feed, and if you changed the modified date when you serve it, then the updated list of forms would always be available in your newsreader.
+
+Maybe not any more useful than a simple page of links, but interesting nevertheless.
+
+Thoughts?

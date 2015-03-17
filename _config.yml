@@ -1,16 +1,6 @@
-rdiscount:
-    extensions: [smart, autolink]
-
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
-url: http://monkinetic.com/
-domain: monkinetic.com
-title: monkinetic weblog
-subtitle: Steve Ivy's Weblog - Since 1999 - XII Ed.
-author: Steve Ivy
-simple_search: http://google.com/search
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sivy.github.io/monkinetic-blog" # the base hostname & protocol for your site
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -20,84 +10,66 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
-subscribe_email:
-# RSS feeds can list your email address if you like
 
+# THEME-SPECIFIC CONFIGURATION
+theme:
+  # Meta
+  title: Monkinetic Weblog
+  # avatar: avatar.jpeg
+  gravatar: 4fe0ff89158486e907c3a19ded9ac0df
+  description: "A website with blog posts and pages" # used by search engines
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+  # Header and footer text
+  header_text: >
+   <p>Steve Ivy's Weblog - Since 1999 - XIV Ed.</p>
+  footer_text: >
+   Copyright Steve Ivy, 1999-2015
 
-# If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
-permalink: /:year/:month/:day/:title.html
-source: source
-destination: public
-plugins: plugins
-code_dir: downloads/code
-category_dir: /categories
-markdown: rdiscount
-pygments: false # default python pygments have been replac  ed by pygments.rb
+  # Icons
+  rss: false
+  email_address: steveivy@gmail.com  # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  github: "sivy"
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter: "steveivy"
+  wordpress:
+  youtube:
 
-paginate: 10          # Posts per page on the blog index
-pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
-recent_posts: 5       # Posts in the sidebar Recent Posts section
-excerpt_link: "More..."  # "Continue reading" link text at the bottom of excerpted articles
+  # Scripts
+  # google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  # disqus_shortname:
+  # katex: true # Enable if using math markup
 
-titlecase: true       # Converts page and post titles to titlecase
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Prev"
+  str_continue_reading: "Continue reading"
 
-# list each of the sidebar modules you want to include, in the order you want them to appear.
-# To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [custom/asides/powerof.html, asides/recent_posts.html, custom/asides/search.html, asides/twitter.html, asides/github.html, custom/asides/hireme.html]
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
 
-# Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
-# and add an array with the asides you want to use.
-# blog_index_asides:
-# post_asides:
-# page_asides:
+# PAGINATION
+paginate: 10
+paginate_path: "blog/page:num"
 
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-# Github repositories
-github_user: sivy
-github_repo_count: 5
-github_show_profile_link: true
-github_skip_forks: true
-
-# Twitter
-twitter_user: steveivy
-twitter_tweet_count: 3
-twitter_show_replies: false
-twitter_follow_button: true
-twitter_show_follower_count: false
-twitter_tweet_button: true
-
-# Google Plus
-google_plus_one: true
-google_plus_one_size: small
-google_plus_one_size: small
-
-# Google Plus Profile
-# Hidden: No visible button, just add author information to search results
-googleplus_user: 103165787121844774357
-googleplus_hidden: false
-
-# Pinboard
-pinboard_user:
-pinboard_count: 3
-
-# Delicious
-delicious_user:
-delicious_count: 3
-
-# Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: true
-
-# Google Analytics
-google_analytics_tracking_id: UA-68725-8
-
-# Facebook Like
-facebook_like: false
+# BUILD SETTINGS
+# markdown: kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: :compressed

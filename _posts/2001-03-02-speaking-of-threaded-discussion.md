@@ -1,0 +1,6 @@
+Slug: speaking-of-threaded-discussion
+Date: 2001-03-02
+Title: Speaking of Threaded Discussion....
+layout: post
+
+<a href="http://www.blacksmith.com">BlackSmith</a> has what appears to be a <a href="http://www.blacksmith.com/ebusiness/20_comp.html">really cool outline-style component</a>. Now if I could only find a download link...

@@ -1,9 +1,0 @@
----
-title: "Glyphix"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a55cdafd970b"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2001/05/glyphix.html"
----
-Ok, I downloaded the <a href="http://www.oaai.com/">Glyphix beta</a>, and this program rocks. The style shelfs are fantastic. Now if I could just figure out how to add my own styles... ;-)

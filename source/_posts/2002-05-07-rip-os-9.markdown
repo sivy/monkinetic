@@ -1,9 +1,0 @@
----
-title: "R.I.P. OS 9"
-layout: post
-tp_urlid: "6a010534988cd3970b0120a55cdc19970b"
-tp_favoritecount: 0
-tp_commentcount: 0
-tp_permalink: "http://www.monkinetic.com/2002/05/rip-os-9.html"
----
-Steve Jobs, <a href="http://maccentral.macworld.com/news/0205/06.wwdckeynote.php"> WWDC Keynote</a>: <blockquote>&quot;Mac OS 9 isn&#39;t dead for our customers, but it is for [developers]. Today we say goodbye to Mac OS 9 for all future development,&quot; said Jobs.</blockquote>
