@@ -1,8 +1,7 @@
----
 Title: Using Hugo and Continuous Integration to easily build a Static Website
 Date: 2015-11-14 18:43
 layout: post
----
+slug: hugo-codeship
 
 [Rachael Worthington](https://twitter.com/nothe) is working on getting [her blog](http://nothe.purplellamas.net/) set up as a static site built by [Hugo](http://gohugo.io), a new entry to the static-site generator field written in Go. She's having a few issues so I thought I'd write about a recent site I set up with Hugo and how that site is getting built/deployed.
 
